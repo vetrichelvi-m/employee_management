@@ -1,0 +1,74 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Worksheet</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><div id='report' style='display:none;'>
+    <div class='table-responsive' id='div_vc'>
+        <table class='table table-striped tbl-simple table-bordered dataTable display' aria-describedby='DataTables_Table_0_info' border='1' style='border-collapse: collapse;'>
+            <tbody><tr>
+                <td style='text-align:center' colspan='6'>
+                    <!--  -->
+                    <strong size='4'>Muthu Soft Labs Private limited
+                        <br> 1c, Rain Tree Place, New no 7, McNichols Road Chetpet, Chennai - 600031</strong>
+                </td>
+            </tr>
+            <tr>
+                <td style='text-align:center' colspan='6'>
+                    <b>
+                        Expenses List from 01-09-2021 upto 13-09-2021                    </b>
+                </td>
+            </tr>
+            <tr>
+                <th> S.No </th>
+                <th> Date </th>
+                <th> Amount Received From </th>
+                <th> Amount </th>
+                <th> Payment Mode </th>
+                <th> Reference No </th>
+            </tr>
+                        <tr>
+                <td class='text-center'>1</td>
+                <td class='text-center'>
+                    09-09-2021                </td>
+                <td class='text-left'>S.M.Vijaya Deepan</td>
+                <td class='text-right'>
+                    ₹ 3,24,234</td>
+                <td class='text-left'>Cash</td>
+                                <td class='text-center'> -                                    </td>
+                            </tr><tr>
+                <td class='text-center'>2</td>
+                <td class='text-center'>
+                    09-09-2021                </td>
+                <td class='text-left'>S.Sankara Subramanian</td>
+                <td class='text-right'>
+                    ₹ 4,324</td>
+                <td class='text-left'>Transfer</td>
+                                <td class='text-right'> 234324</td>
+                                
+                            </tr><tr>
+                <td class='text-center'>3</td>
+                <td class='text-center'>
+                    13-09-2021                </td>
+                <td class='text-left'>S.Sankara Subramanian</td>
+                <td class='text-right'>
+                    ₹ 1,000</td>
+                <td class='text-left'>Transfer</td>
+                                <td class='text-center'> -                                    </td>
+                            </tr><tr>
+                <td class='text-center'>4</td>
+                <td class='text-center'>
+                    13-09-2021                </td>
+                <td class='text-left'>S.M.Vijaya Deepan</td>
+                <td class='text-right'>
+                    ₹ 9,880</td>
+                <td class='text-left'>Transfer</td>
+                                <td class='text-right'> 140948294387932</td>
+                                
+                            </tr><tr>
+                <td class='text-center'>5</td>
+                <td class='text-center'>
+                    13-09-2021                </td>
+                <td class='text-left'>S.M.Vijaya Deepan</td>
+                <td class='text-right'>
+                    ₹ 2,000</td>
+                <td class='text-left'>Cash</td>
+                                <td class='text-center'> -                                    </td>
+                        </tr></tbody></table>
+    </div>
+</div></body></html>
