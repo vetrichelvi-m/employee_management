@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             CompanyCategorySeeder::class,
-            StatusType::class
+            StatusType::class,
+            DistrictSeeder::class
         ]);
     }
 }
