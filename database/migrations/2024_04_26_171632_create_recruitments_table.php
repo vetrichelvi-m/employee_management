@@ -13,7 +13,18 @@ return new class extends Migration
     {
         Schema::create('recruitments', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->integer('ref_no')->index();
+            $table->string('job_title', 60);
+            $table->date('job_posted_date');
+            $table->date('interview_date');
+            $table->text('job_description');
+            $table->integer('no_of_year_exp');
+            $table->integer('no_of_vacancy');
+            $table->string('is_active', 1)->default("1");
+            $table->string('created_by', 11);
+            $table->datetime('created_date');
+            $table->datetime('modified_date')->useCurrent()->nullable();
+            $table->string('modified_by', 11)->nullable();
         });
     }
 

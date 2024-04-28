@@ -91,16 +91,16 @@ use App\Http\Controllers\CommentController;
     <!-- nProgress Loading -->
     <link href="{{ asset('/plugins/nprogress/nprogress.css') }}" rel="stylesheet" type="text/css">
     <!-- steps -->
-    <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
+    {{-- <script src="{{ asset('/plugins/steps/jquery.steps.js') }}"></script>
+    <script src="{{ asset('/plugins/steps/jquery.steps.min.js') }}"></script> --}}
 
-    <script src="{{ asset('/plugins/steps/jquery.steps.js') }}"></script>
-    <?php //echo $this->Html->script('/js/pages/steps/steps-data');
-    ?>
+
     <!-- passtrengthmeter -->
 
     <script src="{{ asset('/plugins/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('/plugins/jquery-validation/js/jquery.validate.js') }}"></script>
+    <script src="{{ asset('/plugins/jquery-validation/js/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('/plugins/passtrength/js/jquery.passtrength.min.js') }}"></script>
-
     <script src="{{ asset('/plugins/sparkline/jquery.sparkline.js') }}"></script>
     <script src="{{ asset('/js/pages/sparkline/sparkline-data.js') }}"></script>
     <script src="{{ asset('/plugins/flatpicker/js/flatpicker.min.js') }}"></script>
@@ -166,6 +166,8 @@ use App\Http\Controllers\CommentController;
     <!-- end js include path -->
 
 </head>
+
+@yield('content')
 
 <body
     class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-white"

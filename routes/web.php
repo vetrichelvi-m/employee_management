@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\UserController;
+
 
 
 /*
@@ -45,7 +47,10 @@ Route::get('/comment/{comment}/edit', [CommentController::class, 'edit'])->name(
 Route::get('/commentshow/{id}', [CommentController::class, 'show'])->name('comment.show');
 Route::put('/comment/{comment}', [CommentController::class, 'update'])->name('comment.update');
 
-Route::get('/profile', [RegisterController::class, 'profile'])->name('profile');
+// Route::get('/profile', [RegisterController::class, 'profile'])->name('profile');
+Route::get('/userreg', [UserController::class, 'profile'])->name('profile');
+Route::post('/profilestore', [UserController::class, 'profilestore'])->name('profile.store');
+
 
 
 // Route::get('/', function()
