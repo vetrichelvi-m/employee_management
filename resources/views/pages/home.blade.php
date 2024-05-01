@@ -146,7 +146,10 @@
                                                             <div class="col-md-6">
                                                                 <div class="input-icon right">
                                                                     <i class="fa"></i>
-                                                                    {{-- <?php echo $this->Form->control('address', ['class' => 'form-control', 'templates' => ['inputContainer' => '{{content}}'], 'label' => false, 'error' => false, 'rows' => 3, 'placeholder' => 'Address', 'required']); ?> --}}
+
+                                                                    <textarea name="address" id="address" class="form-control" placeholder="Enter address" style="resize: none;"
+                                                                        required></textarea>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -222,59 +225,59 @@
             }
         }
 
-        $("#FormID").validate({
-            rules: {
-                'role_id': {
-                    required: true
-                },
-                'name': {
-                    required: true
-                },
-                'password': {
-                    required: true
-                },
-                'username': {
-                    required: true
-                },
+        // $("#FormID").validate({
+        //     rules: {
+        //         'role_id': {
+        //             required: true
+        //         },
+        //         'name': {
+        //             required: true
+        //         },
+        //         'password': {
+        //             required: true
+        //         },
+        //         'username': {
+        //             required: true
+        //         },
 
-                'email': {
-                    required: true
-                },
-                'mobile_no': {
-                    required: true
-                },
-                'address': {
-                    required: true
-                }
-            },
+        //         'email': {
+        //             required: true
+        //         },
+        //         'mobile_no': {
+        //             required: true
+        //         },
+        //         'address': {
+        //             required: true
+        //         }
+        //     },
 
-            messages: {
-                'role_id': {
-                    required: "Select Role"
-                },
-                'name': {
-                    required: "Enter Name"
-                },
-                'password': {
-                    required: "Enter Password"
-                },
-                'username': {
-                    required: "Enter Username"
-                },
-                'email': {
-                    required: "Enter Email"
-                },
-                'mobile_no': {
-                    required: "Enter Mobile Number"
-                },
-                'address': {
-                    required: "Enter Address"
-                }
-            },
-            submitHandler: function(form) {
-                form.submit();
-                $(".btn").prop('disabled', true);
-            }
-        });
+        //     messages: {
+        //         'role_id': {
+        //             required: "Select Role"
+        //         },
+        //         'name': {
+        //             required: "Enter Name"
+        //         },
+        //         'password': {
+        //             required: "Enter Password"
+        //         },
+        //         'username': {
+        //             required: "Enter Username"
+        //         },
+        //         'email': {
+        //             required: "Enter Email"
+        //         },
+        //         'mobile_no': {
+        //             required: "Enter Mobile Number"
+        //         },
+        //         'address': {
+        //             required: "Enter Address"
+        //         }
+        //     },
+        //     submitHandler: function(form) {
+        //         form.submit();
+        //         $(".btn").prop('disabled', true);
+        //     }
+        // });
     </script>
 @stop
